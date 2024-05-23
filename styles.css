@@ -11,13 +11,24 @@ body,html {
 
 #head {
     margin-bottom: 20px; /* Add space below the heading */
+    color: rgba(0, 0, 0, 0.7);;
 }
 
 .graph-block {
     width: 1280px;
-    aspect-ratio: 16 / 5;
+    height: 420px;
     margin: 10px;
-    border: 1px solid rgba(0, 0, 0, 1);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.graph-data {
+    width: 1280px;
+    height: 400px;
+    margin: 10px;
     border-radius: 10px; /* Optional: rounded corners */
 }
 
@@ -27,10 +38,18 @@ body,html {
     justify-content: space-evenly;
 }
 
-.info-block {
-    width: 500px;
+.info-block1 {
+    width: 400px;
+    height: 300px;
     margin: 10px;
-    aspect-ratio: 2 / 1;
-    border: 1px solid rgba(0, 0, 0, 1);;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.info-block2 {
+    width: 700px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px; /* Optional: rounded corners */
 }
